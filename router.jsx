@@ -1,10 +1,10 @@
 import App from './src/App';
 import Products from './src/components/Products/Products';
 import {
-  createBrowserRouter,
+  createHashRouter,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
