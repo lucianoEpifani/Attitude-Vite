@@ -1,0 +1,72 @@
+@media (max-width: 487px) {
+
+.buscador-product{
+    text-align: center;
+    margin: 2rem;
+}
+
+.buscador-product input{
+    border: 0.1rem solid black;
+    width: 95%;
+    height: 6vh;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    text-indent: 2%;
+    font-size: 0.62rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-products img{
+    border: 0.1px solid black;
+    width: 99%;
+    height: 12rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+.description-product{
+    width: 99%;
+    border-left: 0.1px solid black;
+    border-right: 0.1px solid black;
+    cursor: pointer;
+}
+
+.description-product h3{
+    margin-top: 0.6rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    opacity: 0.55;
+    text-indent: 5%;
+}
+
+
+.description-product p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-bottom: 1rem;
+    text-indent: 5%;
+}
+
+}

@@ -1,12 +1,14 @@
-import './Search.css';
+import "./Search.css";
+import { Link } from "react-router-dom";
 
-function Search(){
-    return (
-        <div className="buscador">
-               <a href="/products.jsx" className="busqueda"> <button>Search</button></a>
-            </div>
-    )
+function Search() {
+  return (
+    <div className="buscador">
+      <Link to="/products" className="busqueda"> 
+        <button>Search</button>
+      </Link>
+    </div>
+  );
 }
 
-
-export default Search
+export default Search;

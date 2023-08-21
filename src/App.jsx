@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Search from './components/Search/Search';
-import attitude from './assets/guy.png';
+import attitude from './assets/models/guy.png';
 
 function App() {
   return (
