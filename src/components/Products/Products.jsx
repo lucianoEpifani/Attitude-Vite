@@ -14,6 +14,12 @@ const products = [
   { image: shirt4, title:"Vestido",price: "39.99 EUR"  },
   { image: shirt2, title:"Vestido",price: "39.99 EUR"  },
   { image: shirt4, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt1, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt2, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt3, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt4, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt2, title:"Vestido",price: "39.99 EUR"  },
+  { image: shirt4, title:"Vestido",price: "39.99 EUR"  },
 ];
 
 function Products() {
