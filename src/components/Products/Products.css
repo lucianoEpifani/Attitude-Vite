@@ -6,7 +6,7 @@
 }
 
 .buscador-product input{
-    border: 0.1rem solid black;
+    border: 0.1px solid black;
     width: 95%;
     height: 6vh;
     text-transform: uppercase;
@@ -31,12 +31,15 @@
     align-items: center;
 }
 
+.product a{
+    text-decoration: none;
+}
+
 .grid-products img{
     border: 0.1px solid black;
     width: 99%;
     height: 12rem;
     object-fit: cover;
-    cursor: pointer;
 }
 
 
