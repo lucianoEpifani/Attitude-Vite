@@ -1,0 +1,27 @@
+
+.buscador{
+    position: absolute; 
+    color: black;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+ }
+
+ .buscador button{
+    border: none;
+    background-color: transparent;
+    width: 90%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2rem;
+ }
+
+
+ .busqueda{
+   padding: 0.2rem;
+    text-decoration: none;
+    text-align: end;
+    color: black;
+    border: 0.1rem solid black;
+ }
