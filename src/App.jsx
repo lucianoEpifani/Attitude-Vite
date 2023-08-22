@@ -14,7 +14,7 @@ function App() {
     <header>
      <Nav/>
     </header>
-    
+
       <Search/>
   </div>
   )

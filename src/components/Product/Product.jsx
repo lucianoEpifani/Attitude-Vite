@@ -9,18 +9,14 @@ import { useParams } from 'react-router-dom';
 
 
 const products = [
-    { id: 1, image: shirt1, title:"Camisa",price: "49.99 EUR"  },
-    { id: 2, image: shirt2, title:"Camisa",price: "29.99 EUR"  },
-    { id: 3, image: shirt3, title:"Camisa",price: "49.99 EUR"  },
-    { id: 4, image: shirt4, title:"Camisa",price: "19.99 EUR"  },
-    { id: 5, image: shirt1, title:"Camisa",price: "29.99 EUR"  },
-    { id: 6, image: shirt2, title:"Camisa",price: "39.99 EUR"  },
-    { id: 7, image: shirt3, title:"Camisa",price: "45.99 EUR"  },
-    { id: 8, image: shirt4, title:"Camisa",price: "22.99 EUR"  },
-    { id: 9, image: shirt2, title:"Camisa",price: "25.99 EUR"  },
-    { id: 10, image: shirt3, title:"Camisa",price: "50.99 EUR"  },
-    { id: 11, image: shirt4, title:"Camisa",price: "19.99 EUR"  },
-    { id: 12, image: shirt1, title:"Camisa",price: "19.99 EUR"  },
+    { id: 1, image: shirt1, title:"Camisa",price: "49.99 EUR", category: 'shirt',},
+    { id: 2, image: shirt2, title:"Camisa",price: "29.99 EUR" , category: 'pants'},
+    { id: 3, image: shirt3, title:"Camisa",price: "49.99 EUR", category: 'top'},
+    { id: 4, image: shirt4, title:"Camisa",price: "19.99 EUR", category: 'boides'},
+    { id: 5, image: shirt1, title:"Camisa",price: "29.99 EUR", category: 'hat'},
+    { id: 6, image: shirt2, title:"Camisa",price: "39.99 EUR",category: 'bikini'},
+    { id: 7, image: shirt3, title:"Camisa",price: "45.99 EUR", category: 'dress'},
+    { id: 8, image: shirt4, title:"Camisa",price: "22.99 EUR", category: 'vest'},
   ];
 
 function Product() {
