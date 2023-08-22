@@ -1,5 +1,13 @@
 @media (max-width: 487px) {
 
+.container-products  {
+    display: none;
+}
+
+.container-products-active {
+    display: block;
+}
+
 .buscador-product{
     text-align: center;
     margin: 2rem;
@@ -36,9 +44,10 @@
 }
 
 .grid-products img{
-    border: 0.1px solid black;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
     width: 99%;
-    height: 12rem;
+    height: 15rem;
     object-fit: cover;
 }
 

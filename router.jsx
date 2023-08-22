@@ -7,7 +7,7 @@ import {
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: "/app",
     element: <App/>,
   },
   {

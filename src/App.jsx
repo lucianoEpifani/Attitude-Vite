@@ -1,7 +1,6 @@
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Search from './components/Search/Search';
-import Product from './components/Product/Product';
 import attitude from './assets/models/guy.png';
 
 function App() {

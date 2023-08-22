@@ -60,7 +60,7 @@
         font-size: 16px;
         margin-right: 10px;
         outline: 0.1px solid black;
-        cursor: pointer;
+       
     }
     
     #prodetails .single-details button{
@@ -79,6 +79,11 @@
         justify-content: center;
         text-align: justify;
         padding: 0.7rem;
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
     }
 
     .product-description h4{
@@ -91,7 +96,7 @@
 
     .product-description span{
         line-height: 28px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     
     
