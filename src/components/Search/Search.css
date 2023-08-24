@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 300px){
    
 .buscador{
    position: absolute; 
@@ -16,6 +16,7 @@
    text-transform: uppercase;
    font-family: 'Poppins', sans-serif;
    letter-spacing: 0.2rem;
+   font-weight: bold;
 }
 
 
@@ -24,12 +25,13 @@
    text-decoration: none;
    text-align: end;
    color: black;
-   border: 0.1px solid black;
+   border: 0.1rem solid black;
 }
+
 }
 
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
    .buscador {
    position: absolute; 
    color: black;

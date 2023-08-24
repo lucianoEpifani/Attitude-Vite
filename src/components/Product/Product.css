@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 300px){
 
     .single-product img{
         border: 0.1px solid black;
@@ -9,16 +9,17 @@
     
     #prodetails{
         display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 20px;
-        gap: 0.5rem;
-        padding: 0.2rem
+        gap: 1rem;
+        padding: 1rem
     }
-    
-    
     
         .small-img-group{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
         }
         
         .small-img-col{
@@ -104,19 +105,19 @@
         
 }
 
-@media (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 768px){
 
 
     .single-product img{
-        border: 0.1px solid black;
-        width: 100%;
+        width: 120%;
         height: 20rem;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     #prodetails{
         display: flex;
-        margin-top: 20px;
+        justify-content: center;
+        margin-top: 50px;
         gap: 0.5rem;
         padding: 0.2rem
     }
@@ -129,6 +130,7 @@
     
     .small-img-group{
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
     
@@ -139,16 +141,21 @@
     
     #prodetails .single-details{
         width: 50%;
-        padding-top: 30px;
+    }
+
+      
+    #prodetails .single-details h6{
+        font-size: 2.5rem;
     }
     
     
     #prodetails .single-details h4{
+        font-size: 2rem;
         padding: 40px 0 20px 0;
     }
     
     #prodetails .single-details h2{
-        font-size: 26px;
+        font-size: 1.5rem;
         margin-bottom: 2rem;
     }
     
@@ -174,7 +181,7 @@
     #prodetails .single-details button{
         background-color: #2D4356;
         color: #fff;
-        padding: 0.6rem;
+        padding: 0.8rem;
     }
     
     
@@ -186,20 +193,22 @@
     
     #prodetails .single-details p{
         line-height: 30px;
+        font-size: 1.2rem;
+    }
+
+    .product-description{
+        padding: 2rem;
     }
     
     
         .product-description h4{
-            padding: 2rem 2rem 0 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
             font-size: 1.5rem;
             font-family: 'Poppins', sans-serif;
             text-transform: uppercase;
         }
     
         .product-description p{
-            padding-left: 2rem;
+            text-align: justify;
             line-height: 28px;
             font-family: 'Poppins', sans-serif;
         }

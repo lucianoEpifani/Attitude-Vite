@@ -1,7 +1,7 @@
 
 /* MOBILE 478px */
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 300px){
 
     .menu-icon{
         margin: 0.7rem;
@@ -22,6 +22,9 @@
             color: black;
          }
     
+         .bag{
+            font-size: 1.2rem;
+         }
 
 .navegacion {
     position: absolute;
@@ -61,7 +64,7 @@
     font-size: 0.8rem;
     display: flex;
     align-items: center;
-    justify-content: s;
+    justify-content: center;
     list-style: none;
     padding: 0.2rem;
     text-decoration: none;
@@ -111,7 +114,7 @@
 }
 
 
-@media (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 768px){
     .menu-icon{
         margin: 0.7rem;
         display: flex;
