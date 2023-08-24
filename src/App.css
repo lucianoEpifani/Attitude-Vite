@@ -11,16 +11,26 @@ html {
   box-sizing: inherit;
 }
 @media (max-width: 487px) {
-  .slider img {
+  .girls {
       position: fixed;
       top: 0;
-      left: 0;
-      width: 100%;
+      left: 50%;
+      width: 50%;
       height: 100%;
       object-fit: cover;
       z-index: -1;
-      opacity: 0.7;
+      opacity: 0.65;
   }
+  .guy{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.65;
+}
   .slider h1 {
       position: relative;
       z-index: 1;

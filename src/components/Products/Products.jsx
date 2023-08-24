@@ -61,7 +61,7 @@ function Products() {
 
   return (
     <>
-      <Nav setVisible={setVisible} />
+      <Nav setVisible={setVisible}/>
       <div className={`container-products ${visible}`}>
         <div className="buscador-product">
           <input
