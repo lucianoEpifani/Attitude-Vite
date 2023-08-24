@@ -69,7 +69,7 @@ function Products() {
             onChange={handleChange}
             onKeyPress={handleKeyPress}
             type="text"
-            placeholder="Search an article, top, pants, shirt"
+            placeholder="CERCA UN ARTICOLO, CAMICIA, PANTALONE, TOP"
             name="search"
           />
         </div>

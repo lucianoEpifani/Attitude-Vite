@@ -20,7 +20,7 @@ function Nav({setVisible}){
                 <Link to="/" style={{ textDecoration: 'none' }}>
                 <h1>AttitudE</h1>
                 </Link>
-                <BsBag/>
+                <BsBag className='bag'/>
         </div>
         {active ?  <nav id="nav" className="navegacion">
         <div className="nav-titulo">
@@ -32,28 +32,22 @@ function Nav({setVisible}){
               <h2>AttitudE</h2>
         </div>
         <ul className="genero">
-            <li><a href="">Woman</a></li>
-            <li><a href="">Man</a></li>
+            <li><a href="">Donna</a></li>
+            <li><a href="">Uomo</a></li>
         </ul>
         <ul className="categorias">
-            <li><a href="">T-Shirts</a></li>
-            <li><a href="">Jeans</a></li>
-            <li><a href="">Winter Hat</a></li>
+            <li><a href="">Camicia</a></li>
+            <li><a href="">Pantaloni</a></li>
+            <li><a href="">Cappello</a></li>
         </ul>
         <ul className="categorias">
-            <li><a href="">Tops | Bodies</a></li>
-            <li><a href="">Chalecos</a></li>
+            <li><a href="">Top | Bodies</a></li>
+            <li><a href="">Corpi</a></li>
         </ul>
         <ul className="categorias">
-            <li><a href="">Accesorios | Bisuteria</a></li>
-            <li><a href="">Cazadoras</a></li>
-            <li><a href="">Blazers</a></li>
-            <li><a href="">Vestidos</a></li>
-        </ul>
-        <ul className="categorias">
-            <li><a href="">T-Shirts</a></li>
-            <li><a href="">Jeans</a></li>
-            <li><a href="">Winter Hat</a></li>
+            <li><a href="">Bikini</a></li>
+            <li><a href="">Abito</a></li>
+            <li><a href="">Borsa</a></li>
         </ul>
     </nav>  : <> </>}
         

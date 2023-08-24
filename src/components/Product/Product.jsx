@@ -63,15 +63,17 @@ function Product() {
                 <option>L</option>
                 <option>XL</option>
             </select>
-            <input type="number" max="100" min="0"/>
+            <input type="number" value={1} max="100" min="0"/>
             <button class="normal">Add to Cart</button>
         </div>
     </section>
    <div className="product-description">
    <h4>Description</h4>
-            <span>
-                The Hawaiian shirt is a summer style icon with a soft, lightweight texture, perfect for warm weather. Made from cool cotton fabric, it features a vibrant and colorful design adorned with tropical flowers and beach motifs. Its relaxed fit and short sleeves invite comfort, bringing a tropical and casual touch to any occasion - a garment that evokes the essence of paradise with every wear!
-            </span>
+            <p>
+                The Hawaiian shirt is a summer style icon with a soft, lightweight texture, perfect for warm weather. 
+                Made from cool cotton fabric, it features a vibrant and colorful design adorned with tropical flowers and beach motifs. 
+                Its relaxed fit and short sleeves invite comfort, bringing a tropical and casual touch to any occasion - a garment that evokes the essence of paradise with every wear!
+            </p>
    </div>
     </>
   )
