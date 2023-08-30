@@ -1,32 +1,66 @@
 @media only screen and (max-width: 768px) and (min-width: 300px){
    
-.buscador{
-   position: absolute; 
-   color: black;
-   bottom: 20px;
-   width: 100%;
-   text-align: center;
-}
-
-.buscador button{
-   border: none;
-   background-color: transparent;
-   width: 90%;
-   font-size: 1rem;
-   text-transform: uppercase;
-   font-family: 'Poppins', sans-serif;
-   letter-spacing: 0.2rem;
-   font-weight: bold;
-}
-
-
-.busqueda{
-  padding: 0.2rem;
-   text-decoration: none;
-   text-align: end;
-   color: black;
-   border: 0.1rem solid black;
-}
+    .buscador {
+        position: absolute; 
+        color: black;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+       }
+       
+       .buscador button {
+           border: none;
+           background-color: transparent;
+           width: 100%;
+           font-size: 1rem;
+           text-transform: uppercase;
+           font-family: 'Poppins', sans-serif;
+           letter-spacing: 0.2rem;
+           cursor: pointer;
+           outline: none;
+           transition: transform 0.3s ease, background-color 0.3s ease;
+           padding: 5px;
+           font-weight: bold;
+       }
+       
+       .buscador button:hover {
+           background-color: #f5f5f5;
+       }
+       
+       /* Keyframes Animation */
+       @keyframes bounce {
+           0%, 20%, 50%, 80%, 100% {
+               transform: translateY(0);
+           }
+           40% {
+               transform: translateY(-15px);
+           }
+           60% {
+               transform: translateY(-10px);
+           }
+       }
+       
+       .buscador button:focus {
+           animation: bounce 1s infinite;
+       }
+       
+       .busqueda {
+           width: 90%;
+           text-decoration: none;
+           text-align: end;
+           color: black;
+           border: 0.1px solid black;
+           display: inline-block;
+           margin-top: 10px;
+           transition: background-color 0.3s ease;
+           
+       }
+       
+       .busqueda:hover {
+           background-color: #f5f5f5;
+           opacity: 0.7;
+       }
+       
 
 }
 
@@ -94,3 +128,68 @@
   }
   
 }
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    .buscador {
+    position: absolute; 
+    color: black;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+   }
+   
+   .buscador button {
+       border: none;
+       background-color: transparent;
+       width: 100%;
+       font-size: 0.6rem;
+       text-transform: uppercase;
+       font-family: 'Poppins', sans-serif;
+       letter-spacing: 0.2rem;
+       cursor: pointer;
+       outline: none;
+       transition: transform 0.3s ease, background-color 0.3s ease;
+       padding: 5px;
+       font-weight: bold;
+   }
+   
+   .buscador button:hover {
+       background-color: #f5f5f5;
+   }
+   
+   /* Keyframes Animation */
+   @keyframes bounce {
+       0%, 20%, 50%, 80%, 100% {
+           transform: translateY(0);
+       }
+       40% {
+           transform: translateY(-15px);
+       }
+       60% {
+           transform: translateY(-10px);
+       }
+   }
+   
+   .buscador button:focus {
+       animation: bounce 1s infinite;
+   }
+   
+   .busqueda {
+       width: 90%;
+       text-decoration: none;
+       text-align: end;
+       color: black;
+       border: 0.1px solid black;
+       display: inline-block;
+       margin-top: 10px;
+       transition: background-color 0.3s ease;
+       
+   }
+   
+   .busqueda:hover {
+       background-color: #f5f5f5;
+       opacity: 0.6;
+   }
+   
+ }
